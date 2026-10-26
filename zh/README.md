@@ -1,6 +1,6 @@
 # 中文翻译总索引（按顺序读）
 
-> 译文本目录基于 2026-10-26 的 main 分支（commit 29f6dd2），除机器生成内容外全部翻译完成，共 52 篇。
+> 译文本目录基于 2026-10-26 的 main 分支（commit 29f6dd2），除机器生成内容外全部翻译完成，共 53 篇。
 > 想跟进原文更新：仓库根目录执行 `git pull`；已翻译篇章若原文有实质改动，需按每篇译文头部标注的 commit 重新核对。
 
 **用法：从第 1 篇开始，按编号读下一篇即可。** 编号即推荐阅读顺序，从零基础到进阶排列。每篇开头都有"译自"链接可跳回英文原文对照。
@@ -93,12 +93,13 @@
 | 50 | [我们在 Research-Plan-Implement 上搞错的一切 — MLOps Community](videos/claude-dex-mlops-community-24-mar-26.md) | Dex 讲"研究-计划-实施"模式的踩坑复盘 |
 | 51 | [完整走查：AI 编码的工作流 — Matt Pocock](videos/claude-matt-pocock-24-apr-26.md) | 大会工作坊：聪明区/笨区、垂直切片、Ralph 循环、深模块 |
 | 52 | [从 Vibe Coding 到 Agentic Engineering — Andrej Karpathy](videos/claude-karpathy-ai-engineer-02-may-26.md) | Karpathy 谈 agent 工程化 |
+| 53 | [视频 1：从 Vibe Coding 到 Agentic Engineering](!/video-presentation-transcript/1-video-workflow.md) | 仓库作者自制 5 分钟演示视频的讲稿，主题与第 6-9 篇呼应，读完第 9 篇即可提前看 |
 
 ## 未翻译的范围（不需要看）
 
 - `changelog/`（12 篇）— 机器生成的仓库审计日志
-- `.claude/`、`.codex/` — 仓库自身的运行配置（其中被正文引用的文件，译文里链接直接指向英文原文件）
-- `orchestration-workflow/output.md`、`agent-teams/output.md` — 命令运行的示例输出
+- `.claude/`、`.codex/`、`agent-teams/.claude/`、`development-workflows/rpi/.claude/` — 仓库自身的运行配置（agent、command、skill、hook、rules 定义；这些文件怎么写，读第 6-24 篇的指南即可，正文里被引用的文件译文直接链接到英文原文件）
+- `orchestration-workflow/output.md`、`agent-teams/output/output.md` — 命令运行的示例输出
 - `presentation/` — 幻灯片素材，无 markdown 正文
 - 仓库根 `CLAUDE.md`、`README.md` — 英文 README 的内容已吸收进本索引
 
